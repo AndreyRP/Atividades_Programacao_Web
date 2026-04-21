@@ -1,0 +1,102 @@
+html{
+  height: 100%;
+}
+
+body{
+    height: 100%;
+    padding: 0 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: antiquewhite;
+    border-bottom: 2px solid black;
+    padding: 1rem 2rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.imagemNav{
+    width: 40px;
+}
+
+.navDireita{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navEsquerda{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.botaoPreto{
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 4px 12px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.botaoBranco{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 4px 12px;
+    font-size: 20px;
+    text-align: center;
+}
+
+span{
+    font-size: 20px;
+    font-style: arial;
+}
+
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+article{
+    display: flex;
+    padding: 1rem 2rem;
+    background-color: aqua;
+    flex: 1;
+}
+
+.materia{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.imagem{
+    width: 50%;
+}
+
+h1{
+    font-size: 4.5rem;
+}
+
+.divBotao{
+    display: flex;
+    gap: 1rem;
+}
+
+.imagemArticle{
+    width: 100%;
+    height: 100%;
+}
+

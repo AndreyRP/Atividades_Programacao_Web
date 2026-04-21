@@ -1,0 +1,110 @@
+html{
+  height: 100%;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: antiquewhite;
+    border-bottom: 2px solid black;
+    padding: 1rem 2rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.divEmpresa{
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagemNav{
+    width: 40px;
+}
+
+.divNavegar{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.botaoNav{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 61, 229);
+    border: none;
+    border-radius: 8px;
+    padding: 4px 12px;
+    font-size: 20px;
+    text-align: center;
+}
+
+span{
+    font-size: 20px;
+    font-style: arial;
+}
+
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+article{
+    display: flex;
+    padding: 1rem 2rem;
+    background-color: aqua;
+    flex: 1;
+
+}
+
+.materia{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(104, 104, 224);
+    padding: 1rem;
+}
+
+.imagem{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(96, 96, 225);
+}
+
+h1{
+    font-size: 3rem;
+}
+
+.imagemArticle{
+    width: 80%;
+    height: 80%;
+}
+
+a{
+    font-size: 20px;
+    color: black;
+}
+
+.botaoArticle{
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+    color: rgb(0, 0, 0);
+    padding: 10px 14px;
+    width: 70%;
+    font-size: 24px;
+}
