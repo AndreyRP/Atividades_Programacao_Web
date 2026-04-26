@@ -1,0 +1,168 @@
+body{
+    background-color: rgb(13, 13, 157);
+}
+
+header{
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+    background-color: rgb(4, 4, 82);
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 800;
+    font-style: comic;
+    color: white;
+}
+
+.barra_pesquisa input {
+    padding: 12px 110px 12px 15px;
+    border-radius: 25px;
+    border: none;
+    background: #f1f1f1;
+    outline: none;
+    font-size: 14px;
+}
+
+nav{
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(13, 13, 157);
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 18px;
+}
+
+nav button:hover {
+    color: rgb(251, 251, 251);
+    font-size: 19px;
+}
+
+main{
+    margin: 0 1.5rem;
+    display: flex;
+    background-color: white;
+}
+
+.noticias{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+.noticia{
+    display: flex;
+    gap: 1rem;
+    border: 4px solid  rgb(13, 13, 157);
+    border-top:none ;
+    padding: 1rem;
+}
+
+.imagem_noticia{
+    width: 200px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h2{
+    font-size: 20px;
+    color: black;
+    font-weight: 300;
+}
+
+h2:hover{
+    font-size: 22px;
+    color: blue;
+}
+
+h3{
+    font-size: 16px;
+    color: rgb(85, 85, 85);
+}
+
+span{
+    font-size: 12px;
+    font-weight: 100;
+    color: rgb(85, 85, 85);
+}
+
+.titulo_aside{
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    padding: 10px;
+    align-self: center;
+}
+
+.primeiro{
+    border-top: 4px solid  rgb(13, 13, 157);
+}
+
+.ultima_hora{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    border-left: 4px solid  rgb(13, 13, 157);
+    border-bottom: 4px solid  rgb(13, 13, 157);
+    gap: 1.5rem;
+}
+
+.ultima_hora div{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-bottom: 4px solid  rgb(13, 13, 157);;
+}
+
+.ultima_hora div img{
+    width: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(173, 166, 166);
+}
+
+footer{
+    background-color: rgb(4, 4, 82);
+    padding: 1rem 1.5rem;
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+}
+
+.footer_logo span{
+    color: white;
+}
+
+footer img{
+    padding-left: 70px;
+    width: 50px;
+}
+
+.footer_logo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.comunicacao{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: start;
+}
